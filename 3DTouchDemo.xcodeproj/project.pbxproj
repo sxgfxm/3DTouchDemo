@@ -15,6 +15,10 @@
 		A05807CD1DB859C900831576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05807CB1DB859C900831576 /* LaunchScreen.storyboard */; };
 		A05807D81DB859C900831576 /* _DTouchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05807D71DB859C900831576 /* _DTouchDemoTests.m */; };
 		A05807E31DB859C900831576 /* _DTouchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05807E21DB859C900831576 /* _DTouchDemoUITests.m */; };
+		A05807F21DB86DAE00831576 /* Item1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05807F11DB86DAE00831576 /* Item1ViewController.m */; };
+		A05807F51DB86DBA00831576 /* Item2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05807F41DB86DBA00831576 /* Item2ViewController.m */; };
+		A05807F71DB8727A00831576 /* junxi3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A05807F61DB8727A00831576 /* junxi3.jpeg */; };
+		A05807FA1DB873BB00831576 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05807F91DB873BB00831576 /* PreviewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		A05807DE1DB859C900831576 /* 3DTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05807E21DB859C900831576 /* _DTouchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _DTouchDemoUITests.m; sourceTree = "<group>"; };
 		A05807E41DB859C900831576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05807F01DB86DAE00831576 /* Item1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item1ViewController.h; sourceTree = "<group>"; };
+		A05807F11DB86DAE00831576 /* Item1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item1ViewController.m; sourceTree = "<group>"; };
+		A05807F31DB86DBA00831576 /* Item2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item2ViewController.h; sourceTree = "<group>"; };
+		A05807F41DB86DBA00831576 /* Item2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item2ViewController.m; sourceTree = "<group>"; };
+		A05807F61DB8727A00831576 /* junxi3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = junxi3.jpeg; sourceTree = "<group>"; };
+		A05807F81DB873BB00831576 /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		A05807F91DB873BB00831576 /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,13 @@
 				A05807C11DB859C900831576 /* AppDelegate.m */,
 				A05807C31DB859C900831576 /* ViewController.h */,
 				A05807C41DB859C900831576 /* ViewController.m */,
+				A05807F01DB86DAE00831576 /* Item1ViewController.h */,
+				A05807F11DB86DAE00831576 /* Item1ViewController.m */,
+				A05807F31DB86DBA00831576 /* Item2ViewController.h */,
+				A05807F41DB86DBA00831576 /* Item2ViewController.m */,
+				A05807F81DB873BB00831576 /* PreviewViewController.h */,
+				A05807F91DB873BB00831576 /* PreviewViewController.m */,
+				A05807F61DB8727A00831576 /* junxi3.jpeg */,
 				A05807C61DB859C900831576 /* Main.storyboard */,
 				A05807C91DB859C900831576 /* Assets.xcassets */,
 				A05807CB1DB859C900831576 /* LaunchScreen.storyboard */,
@@ -207,6 +225,7 @@
 				TargetAttributes = {
 					A05807B91DB859C900831576 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TVSDM83893;
 						ProvisioningStyle = Automatic;
 					};
 					A05807D21DB859C900831576 = {
@@ -246,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05807F71DB8727A00831576 /* junxi3.jpeg in Resources */,
 				A05807CD1DB859C900831576 /* LaunchScreen.storyboard in Resources */,
 				A05807CA1DB859C900831576 /* Assets.xcassets in Resources */,
 				A05807C81DB859C900831576 /* Main.storyboard in Resources */,
@@ -273,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05807F51DB86DBA00831576 /* Item2ViewController.m in Sources */,
 				A05807C51DB859C900831576 /* ViewController.m in Sources */,
 				A05807C21DB859C900831576 /* AppDelegate.m in Sources */,
 				A05807BF1DB859C900831576 /* main.m in Sources */,
+				A05807F21DB86DAE00831576 /* Item1ViewController.m in Sources */,
+				A05807FA1DB873BB00831576 /* PreviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVSDM83893;
 				INFOPLIST_FILE = 3DTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobvoi.-DTouchDemo";
@@ -433,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVSDM83893;
 				INFOPLIST_FILE = 3DTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mobvoi.-DTouchDemo";
@@ -505,6 +530,7 @@
 				A05807E91DB859C900831576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A05807EA1DB859C900831576 /* Build configuration list for PBXNativeTarget "3DTouchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +539,7 @@
 				A05807EC1DB859C900831576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A05807ED1DB859C900831576 /* Build configuration list for PBXNativeTarget "3DTouchDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +548,7 @@
 				A05807EF1DB859C900831576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
