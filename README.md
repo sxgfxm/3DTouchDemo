@@ -72,7 +72,7 @@
 
 运行效果： 
 
- ![step1](../images/3dtouch/step1.jpeg)
+ ![step1](http://ofj92itlz.bkt.clouddn.com/3DTouch:step1.jpeg)
 
 ## Peek and Pop
 
@@ -136,7 +136,7 @@
 
 运行效果：
 
-![step2](../images/3dtouch/step2.jpeg)      ![step3](../images/3dtouch/step3.jpeg) 
+![step2](http://ofj92itlz.bkt.clouddn.com/3DTouch:step2.jpeg)      ![step3](http://ofj92itlz.bkt.clouddn.com/3DTouch:step3.jpeg) 
 
 ### 在PreviewViewController中添加预览状态快捷选项
 
@@ -176,7 +176,7 @@
 
 运行效果：
 
- ![step4](../images/3dtouch/step4.jpeg)
+ ![step4](http://ofj92itlz.bkt.clouddn.com/3DTouch:step5.jpeg)
 
 ### pop相关代理方法
 
@@ -195,7 +195,7 @@
 
 运行效果：
 
- ![step5](../images/3dtouch/step5.jpeg)
+ ![step5](http://ofj92itlz.bkt.clouddn.com/3DTouch:step4.jpeg)
 
 ## 3D Touch Force简单运用
 
@@ -215,3 +215,6 @@
 
 [iOS9新特性 3DTouch 开发教程全解](http://www.tuicool.com/articles/auIJbiN)
 
+### Github源码
+
+[3DTouchDemo](https://github.com/sxgfxm/3DTouchDemo)
